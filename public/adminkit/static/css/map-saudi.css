@@ -1,0 +1,34 @@
+{
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        background-color: #01171b;
+}
+
+svg {
+        width: 100vw; /* Width viewport */
+        height: 100vh; /* Height viewport */
+      }
+
+svg path {
+        fill: #00394f;
+        stroke: #eee;
+        stroke-width: .25;
+}
+
+svg path:hover {
+        fill: #006284;
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+h1 {
+        font-family: arial;
+        color: white;
+}
+
+.container-fluid {
+    background-color: black;
+}

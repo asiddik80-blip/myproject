@@ -1,0 +1,4 @@
+Error in extract_metadata: get_text() got an unexpected keyword argument 'encoding'
+General error: 'placard_no'
+Error in extract_table: module 'pandas.io.parsers' has no attribute 'ParserBase'
+Error in extract_metadata: get_text() got an unexpected keyword argument 'encoding'
