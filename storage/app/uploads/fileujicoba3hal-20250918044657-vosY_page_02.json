@@ -1,0 +1,783 @@
+{
+    "filename": "fileujicoba3hal-20250918044657-vosY_page_02.jpg",
+    "metadata": {
+        "original_filename": "FILEUJICOBA3HAL.pdf",
+        "stored_filename": "fileujicoba3hal-20250918044657-vosY.pdf",
+        "page_type": "D",
+        "drawing-no": "A511351610",
+        "timestamp": "2025-09-18 04:47:11",
+        "page_number": "02",
+        "total_pages": 3,
+        "pdf_filesize_kb": 147,
+        "pdf_dimensions": "842 x 595 pt",
+        "ocr_engine": "Tesseract v5.3.1 (TSV)"
+    },
+    "text": "41P 42L 42P 43L ITEM-018 ITEM-019 ITEM-020 ITEM-021 L 43 P 45L 31R ITEM-022 ITEM-023 ITEM-024 ITEM-025 Va ~ 33 N S ITEM-026 ITEM-027 ITEM-028 ITEM-029 0) 30 60 90 120 150 MILLIMETER INCH 1.5 3 4.5 6 A511351610 — SHEET_ 4 24 23 22 21 20 \\\\ EYEng\/TS\/8660 ISSUE 13 DEC 2021",
+    "words": [
+        {
+            "text": "41P",
+            "conf": 87,
+            "top": 320,
+            "bbox": {
+                "left": 212,
+                "top": 320,
+                "width": 923,
+                "height": 407
+            }
+        },
+        {
+            "text": "42L",
+            "conf": 64,
+            "top": 320,
+            "bbox": {
+                "left": 1299,
+                "top": 320,
+                "width": 901,
+                "height": 407
+            }
+        },
+        {
+            "text": "42P",
+            "conf": 85,
+            "top": 320,
+            "bbox": {
+                "left": 2380,
+                "top": 320,
+                "width": 922,
+                "height": 407
+            }
+        },
+        {
+            "text": "43L",
+            "conf": 46,
+            "top": 320,
+            "bbox": {
+                "left": 3467,
+                "top": 320,
+                "width": 900,
+                "height": 418
+            }
+        },
+        {
+            "text": "ITEM-018",
+            "conf": 91,
+            "top": 954,
+            "bbox": {
+                "left": 588,
+                "top": 954,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-019",
+            "conf": 91,
+            "top": 954,
+            "bbox": {
+                "left": 1675,
+                "top": 954,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-020",
+            "conf": 90,
+            "top": 963,
+            "bbox": {
+                "left": 2780,
+                "top": 963,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-021",
+            "conf": 91,
+            "top": 981,
+            "bbox": {
+                "left": 3817,
+                "top": 981,
+                "width": 195,
+                "height": 35
+            }
+        },
+        {
+            "text": "L",
+            "conf": 89,
+            "top": 1221,
+            "bbox": {
+                "left": 849,
+                "top": 1221,
+                "width": 264,
+                "height": 403
+            }
+        },
+        {
+            "text": "43",
+            "conf": 96,
+            "top": 1229,
+            "bbox": {
+                "left": 1299,
+                "top": 1229,
+                "width": 563,
+                "height": 410
+            }
+        },
+        {
+            "text": "P",
+            "conf": 86,
+            "top": 1221,
+            "bbox": {
+                "left": 1936,
+                "top": 1221,
+                "width": 286,
+                "height": 403
+            }
+        },
+        {
+            "text": "45L",
+            "conf": 86,
+            "top": 1221,
+            "bbox": {
+                "left": 2380,
+                "top": 1221,
+                "width": 900,
+                "height": 418
+            }
+        },
+        {
+            "text": "31R",
+            "conf": 84,
+            "top": 1221,
+            "bbox": {
+                "left": 3467,
+                "top": 1221,
+                "width": 948,
+                "height": 418
+            }
+        },
+        {
+            "text": "ITEM-022",
+            "conf": 90,
+            "top": 1856,
+            "bbox": {
+                "left": 588,
+                "top": 1856,
+                "width": 200,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-023",
+            "conf": 90,
+            "top": 1856,
+            "bbox": {
+                "left": 1675,
+                "top": 1856,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-024",
+            "conf": 91,
+            "top": 1864,
+            "bbox": {
+                "left": 2780,
+                "top": 1864,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-025",
+            "conf": 90,
+            "top": 1882,
+            "bbox": {
+                "left": 3817,
+                "top": 1882,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "Va",
+            "conf": 53,
+            "top": 1993,
+            "bbox": {
+                "left": 1261,
+                "top": 1993,
+                "width": 17,
+                "height": 16
+            }
+        },
+        {
+            "text": "~",
+            "conf": 59,
+            "top": 1993,
+            "bbox": {
+                "left": 3372,
+                "top": 1993,
+                "width": 17,
+                "height": 16
+            }
+        },
+        {
+            "text": "33",
+            "conf": 56,
+            "top": 2132,
+            "bbox": {
+                "left": 1299,
+                "top": 2132,
+                "width": 563,
+                "height": 410
+            }
+        },
+        {
+            "text": "N",
+            "conf": 64,
+            "top": 2711,
+            "bbox": {
+                "left": 1261,
+                "top": 2711,
+                "width": 16,
+                "height": 15
+            }
+        },
+        {
+            "text": "S",
+            "conf": 48,
+            "top": 2711,
+            "bbox": {
+                "left": 3373,
+                "top": 2711,
+                "width": 16,
+                "height": 15
+            }
+        },
+        {
+            "text": "ITEM-026",
+            "conf": 91,
+            "top": 2758,
+            "bbox": {
+                "left": 588,
+                "top": 2758,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-027",
+            "conf": 91,
+            "top": 2758,
+            "bbox": {
+                "left": 1675,
+                "top": 2758,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-028",
+            "conf": 89,
+            "top": 2758,
+            "bbox": {
+                "left": 2703,
+                "top": 2758,
+                "width": 202,
+                "height": 35
+            }
+        },
+        {
+            "text": "ITEM-029",
+            "conf": 91,
+            "top": 2758,
+            "bbox": {
+                "left": 3817,
+                "top": 2758,
+                "width": 201,
+                "height": 35
+            }
+        },
+        {
+            "text": "0)",
+            "conf": 65,
+            "top": 2866,
+            "bbox": {
+                "left": 182,
+                "top": 2866,
+                "width": 26,
+                "height": 41
+            }
+        },
+        {
+            "text": "30",
+            "conf": 96,
+            "top": 2868,
+            "bbox": {
+                "left": 330,
+                "top": 2868,
+                "width": 56,
+                "height": 40
+            }
+        },
+        {
+            "text": "60",
+            "conf": 96,
+            "top": 2868,
+            "bbox": {
+                "left": 484,
+                "top": 2868,
+                "width": 57,
+                "height": 40
+            }
+        },
+        {
+            "text": "90",
+            "conf": 96,
+            "top": 2868,
+            "bbox": {
+                "left": 642,
+                "top": 2868,
+                "width": 57,
+                "height": 40
+            }
+        },
+        {
+            "text": "120",
+            "conf": 95,
+            "top": 2868,
+            "bbox": {
+                "left": 801,
+                "top": 2868,
+                "width": 84,
+                "height": 40
+            }
+        },
+        {
+            "text": "150",
+            "conf": 96,
+            "top": 2868,
+            "bbox": {
+                "left": 942,
+                "top": 2868,
+                "width": 85,
+                "height": 40
+            }
+        },
+        {
+            "text": "MILLIMETER",
+            "conf": 96,
+            "top": 2930,
+            "bbox": {
+                "left": 1038,
+                "top": 2930,
+                "width": 260,
+                "height": 32
+            }
+        },
+        {
+            "text": "INCH",
+            "conf": 94,
+            "top": 3005,
+            "bbox": {
+                "left": 1063,
+                "top": 3005,
+                "width": 100,
+                "height": 34
+            }
+        },
+        {
+            "text": "1.5",
+            "conf": 96,
+            "top": 3092,
+            "bbox": {
+                "left": 366,
+                "top": 3092,
+                "width": 69,
+                "height": 40
+            }
+        },
+        {
+            "text": "3",
+            "conf": 96,
+            "top": 3092,
+            "bbox": {
+                "left": 585,
+                "top": 3092,
+                "width": 26,
+                "height": 40
+            }
+        },
+        {
+            "text": "4.5",
+            "conf": 95,
+            "top": 3092,
+            "bbox": {
+                "left": 766,
+                "top": 3092,
+                "width": 72,
+                "height": 40
+            }
+        },
+        {
+            "text": "6",
+            "conf": 96,
+            "top": 3082,
+            "bbox": {
+                "left": 980,
+                "top": 3082,
+                "width": 26,
+                "height": 40
+            }
+        },
+        {
+            "text": "A511351610",
+            "conf": 87,
+            "top": 3078,
+            "bbox": {
+                "left": 3603,
+                "top": 3078,
+                "width": 292,
+                "height": 39
+            }
+        },
+        {
+            "text": "—",
+            "conf": 39,
+            "top": 3116,
+            "bbox": {
+                "left": 4166,
+                "top": 3116,
+                "width": 75,
+                "height": 4
+            }
+        },
+        {
+            "text": "SHEET_",
+            "conf": 90,
+            "top": 3093,
+            "bbox": {
+                "left": 4300,
+                "top": 3093,
+                "width": 103,
+                "height": 23
+            }
+        },
+        {
+            "text": "4",
+            "conf": 93,
+            "top": 3086,
+            "bbox": {
+                "left": 4448,
+                "top": 3086,
+                "width": 19,
+                "height": 27
+            }
+        },
+        {
+            "text": "24",
+            "conf": 96,
+            "top": 3207,
+            "bbox": {
+                "left": 739,
+                "top": 3207,
+                "width": 41,
+                "height": 27
+            }
+        },
+        {
+            "text": "23",
+            "conf": 96,
+            "top": 3207,
+            "bbox": {
+                "left": 1422,
+                "top": 3207,
+                "width": 40,
+                "height": 27
+            }
+        },
+        {
+            "text": "22",
+            "conf": 96,
+            "top": 3207,
+            "bbox": {
+                "left": 2103,
+                "top": 3207,
+                "width": 39,
+                "height": 27
+            }
+        },
+        {
+            "text": "21",
+            "conf": 96,
+            "top": 3207,
+            "bbox": {
+                "left": 2795,
+                "top": 3207,
+                "width": 36,
+                "height": 27
+            }
+        },
+        {
+            "text": "20",
+            "conf": 96,
+            "top": 3207,
+            "bbox": {
+                "left": 3477,
+                "top": 3207,
+                "width": 40,
+                "height": 27
+            }
+        },
+        {
+            "text": "\\\\",
+            "conf": 72,
+            "top": 3147,
+            "bbox": {
+                "left": 4234,
+                "top": 3147,
+                "width": 78,
+                "height": 77
+            }
+        },
+        {
+            "text": "EYEng\/TS\/8660",
+            "conf": 92,
+            "top": 3239,
+            "bbox": {
+                "left": 3845,
+                "top": 3239,
+                "width": 252,
+                "height": 34
+            }
+        },
+        {
+            "text": "ISSUE",
+            "conf": 90,
+            "top": 3239,
+            "bbox": {
+                "left": 4131,
+                "top": 3239,
+                "width": 103,
+                "height": 26
+            }
+        },
+        {
+            "text": "13",
+            "conf": 96,
+            "top": 3239,
+            "bbox": {
+                "left": 4248,
+                "top": 3239,
+                "width": 35,
+                "height": 26
+            }
+        },
+        {
+            "text": "DEC",
+            "conf": 96,
+            "top": 3239,
+            "bbox": {
+                "left": 4348,
+                "top": 3239,
+                "width": 70,
+                "height": 26
+            }
+        },
+        {
+            "text": "2021",
+            "conf": 96,
+            "top": 3239,
+            "bbox": {
+                "left": 4431,
+                "top": 3239,
+                "width": 71,
+                "height": 26
+            }
+        }
+    ],
+    "lines": [
+        {
+            "text": "41P 42L 42P 43L",
+            "bbox": {
+                "left": 212,
+                "top": 320,
+                "width": 4155,
+                "height": 418
+            },
+            "word_count": 4
+        },
+        {
+            "text": "ITEM-018 ITEM-019 ITEM-020",
+            "bbox": {
+                "left": 588,
+                "top": 954,
+                "width": 2393,
+                "height": 44
+            },
+            "word_count": 3
+        },
+        {
+            "text": "ITEM-021",
+            "bbox": {
+                "left": 3817,
+                "top": 981,
+                "width": 195,
+                "height": 35
+            },
+            "word_count": 1
+        },
+        {
+            "text": "L P 45L 31R 43",
+            "bbox": {
+                "left": 849,
+                "top": 1221,
+                "width": 3566,
+                "height": 418
+            },
+            "word_count": 5
+        },
+        {
+            "text": "ITEM-022 ITEM-023 ITEM-024",
+            "bbox": {
+                "left": 588,
+                "top": 1856,
+                "width": 2393,
+                "height": 43
+            },
+            "word_count": 3
+        },
+        {
+            "text": "ITEM-025",
+            "bbox": {
+                "left": 3817,
+                "top": 1882,
+                "width": 201,
+                "height": 35
+            },
+            "word_count": 1
+        },
+        {
+            "text": "Va ~",
+            "bbox": {
+                "left": 1261,
+                "top": 1993,
+                "width": 2128,
+                "height": 16
+            },
+            "word_count": 2
+        },
+        {
+            "text": "33",
+            "bbox": {
+                "left": 1299,
+                "top": 2132,
+                "width": 563,
+                "height": 410
+            },
+            "word_count": 1
+        },
+        {
+            "text": "N S",
+            "bbox": {
+                "left": 1261,
+                "top": 2711,
+                "width": 2128,
+                "height": 15
+            },
+            "word_count": 2
+        },
+        {
+            "text": "ITEM-026 ITEM-027 ITEM-028 ITEM-029",
+            "bbox": {
+                "left": 588,
+                "top": 2758,
+                "width": 3430,
+                "height": 35
+            },
+            "word_count": 4
+        },
+        {
+            "text": "0) 30 60 90 120 150",
+            "bbox": {
+                "left": 182,
+                "top": 2866,
+                "width": 845,
+                "height": 42
+            },
+            "word_count": 6
+        },
+        {
+            "text": "MILLIMETER",
+            "bbox": {
+                "left": 1038,
+                "top": 2930,
+                "width": 260,
+                "height": 32
+            },
+            "word_count": 1
+        },
+        {
+            "text": "INCH",
+            "bbox": {
+                "left": 1063,
+                "top": 3005,
+                "width": 100,
+                "height": 34
+            },
+            "word_count": 1
+        },
+        {
+            "text": "6 A511351610 4 1.5 3 4.5 SHEET_",
+            "bbox": {
+                "left": 366,
+                "top": 3078,
+                "width": 4037,
+                "height": 54
+            },
+            "word_count": 7
+        },
+        {
+            "text": "—",
+            "bbox": {
+                "left": 4166,
+                "top": 3116,
+                "width": 75,
+                "height": 4
+            },
+            "word_count": 1
+        },
+        {
+            "text": "\\\\",
+            "bbox": {
+                "left": 4234,
+                "top": 3147,
+                "width": 78,
+                "height": 77
+            },
+            "word_count": 1
+        },
+        {
+            "text": "24 23 22 21 20",
+            "bbox": {
+                "left": 739,
+                "top": 3207,
+                "width": 2778,
+                "height": 27
+            },
+            "word_count": 5
+        },
+        {
+            "text": "24 23 22 21 20",
+            "bbox": {
+                "left": 739,
+                "top": 3207,
+                "width": 2778,
+                "height": 27
+            },
+            "word_count": 5
+        }
+    ]
+}

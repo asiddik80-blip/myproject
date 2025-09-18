@@ -1,0 +1,26 @@
+TESTING PAGE D (file converted lama)
+---------------------------------------------------------------
+
+PAGE 02
+- Noise ITEM-037 ee	
+  --> seharusnya full blok hitam
+  Solusi : Deteksi Blok hitam, lalu clean
+	
+PAGE 03
+- Terdeteksi hanya 8 kotak	
+  --> seharusnya 12 kotak vb, ini paling aneh
+  --> Coba generate ulang
+
+PAGE 04
+1. Noise ITEM-097 
+   438 at 23 < | Py © i | 
+   --> ini seharusnya 3 baris teks, 1 bahasa arab, 2 teks english 
+2. Noise ITEM-096, 
+   ACCESS TO AVIONICS BLOWING FAN 11351610-006 REMOVE THIS LINING, 	      ---> terdeteksi ada tambahan 11351610-006
+3. Noise ITEM-094, 
+   --> ada noise | OPEN 
+
+
+PAGE 05 (fix)
+PAGE 06 (fix)
+PAGE 07 (fix)

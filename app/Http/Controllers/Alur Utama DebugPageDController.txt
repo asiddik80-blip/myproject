@@ -1,0 +1,136 @@
+Berikut penjelasan lengkap, terstruktur, dan saling terkait dari alur dan fungsi masing-masing komponen utama dalam sistem debug Page D PDF OCR + Visual Detection milikmu:
+
+1. 🔧 DebugPageDController
+📌 Fungsi Utama:
+Sebagai entry point Laravel untuk proses uji coba debug pada halaman tipe D dari hasil OCR dan deteksi visual, termasuk form upload dan proses backend.
+
+🔄 Alur Kerja:
+index()
+
+Menampilkan halaman upload OCR JSON + gambar (JPG/PNG).
+
+View: debugpaged.index.
+
+process(Request $request)
+
+Validasi file input (OCR JSON & Image).
+
+Simpan file ke storage/app/debug/.
+
+Decode file JSON OCR.
+
+Dapatkan full path file gambar untuk Python.
+
+Jalankan helper:
+
+PageDRegionCaptionDetector::detect(...) → untuk mendeteksi teks anchor ("ITEM-xxx") dari OCR.
+
+getVisualBoxes(...) → untuk memanggil Python script (detect_boxes.py) dan mendapatkan kotak visual dari gambar (OpenCV).
+
+PageDPlacardZoneItemDetector::detectFromCaptions(...) → gabungkan hasil deteksi OCR + visual untuk menemukan zona gambar (placard).
+
+Tampilkan hasil ke view debugpaged.result.
+
+📥 Input:
+OCR TSV/JSON hasil Tesseract.
+
+Image hasil konversi halaman PDF.
+
+📤 Output:
+Caption deteksi ("ITEM-xxx").
+
+Visual boxes dari gambar.
+
+Zona placard (gambar + teks) berdasarkan anchor.
+
+2. 📌 PageDRegionCaptionDetector
+🎯 Fungsi:
+Mendeteksi teks yang merupakan "caption" pada halaman D, yaitu teks dengan format seperti ITEM-xxx.
+
+🧠 Logic:
+Telusuri semua entri OCR.
+
+Cari teks dengan pola regex ITEM-\d{3} (misal: ITEM-102, ITEM-099).
+
+Ambil atribut bounding box dan confidence (jika tersedia).
+
+Simpan dalam bentuk array seperti:
+
+php
+Copy
+Edit
+[
+    'text' => 'ITEM-102',
+    'bounding_box' => [
+        'x' => ..., 'y' => ..., 'width' => ..., 'height' => ...
+    ],
+    'ocr_confidence' => ...
+]
+🔗 Output:
+Data array yang mewakili lokasi teks caption.
+
+3. 🧠 PageDPlacardZoneItemDetector
+🎯 Fungsi:
+Mendeteksi zona gambar (placard) untuk tiap teks anchor "ITEM-xxx" yang telah terdeteksi, menggabungkan OCR dan visual detection.
+
+🧩 Alur Logic detectFromCaptions(...):
+Input:
+
+$captions = hasil dari PageDRegionCaptionDetector.
+
+$ocrData = hasil JSON OCR seluruh halaman.
+
+$visualBoxes = hasil deteksi kotak dari gambar via Python + OpenCV.
+
+Untuk setiap anchor (caption):
+
+Ambil posisi tengah anchor (center X).
+
+Cari visual box yang berada di atas anchor dan posisinya sejajar secara horizontal (± toleransi 150px).
+
+Pilih box terdekat secara vertikal ke anchor.
+
+Tambahkan margin (misal 10px) → menjadi zona placard.
+
+Lalu, cari kata-kata OCR yang berada dalam zona ini → simpan sebagai body.
+
+Output Struktur:
+
+php
+Copy
+Edit
+[
+  'placards' => [
+    [
+      'anchor' => [ 'text' => 'ITEM-102', ... ],
+      'zone_box' => [ 'x' => ..., 'y' => ..., 'width' => ..., 'height' => ... ],
+      'body' => ['REMOVE THIS LINING', 'FWD CARGO COMPARTMENT', ...],
+      'fullbody' => [
+        'text' => 'REMOVE THIS LINING FWD CARGO COMPARTMENT',
+        'bbox' => [...same as zone_box...]
+      ]
+    ],
+    ...
+  ],
+  'anchors' => [...],
+  'visual_boxes' => [...]
+]
+🔄 Hubungan Antar Komponen
+mermaid
+Copy
+Edit
+graph TD
+A[Form Upload JSON + JPG] -->|Route| B(DebugPageDController@index)
+B --> C[User uploads file]
+C --> D(DebugPageDController@process)
+D --> E[PageDRegionCaptionDetector]
+D --> F[getVisualBoxes via Python]
+D --> G[PageDPlacardZoneItemDetector::detectFromCaptions]
+G -->|uses| E & F
+G --> H[Zona Placard per Caption]
+D --> I[result.blade.php]
+✨ Kesimpulan
+Komponen	Fungsi Inti	Input	Output
+DebugPageDController	Koordinasi semua proses debug	OCR JSON, JPG/PNG	View dengan hasil visualisasi
+PageDRegionCaptionDetector	Mendeteksi teks "ITEM-xxx" dari OCR	OCR data	List caption
+PageDPlacardZoneItemDetector	Mendeteksi zona gambar berbasis anchor	Captions + OCR + Visual	List zona placard (gambar + teks)

@@ -1,0 +1,77 @@
+***************************************************************************************************************
+
+20 JULI 2025
+
+ALUR LOGIKA HELPER
+PageDRegionCaptionDetector.php
+
+Ali Hifni
+
+***************************************************************************************************************
+
+Input:
+1. Data hasil OCR per halaman (TSV yang telah di-parse → array words)
+2. Informasi bounding box setiap kata (x, y, width, height)
+3. Image JPG dari halaman PDF
+4. (Optional) Output dari OpenCV (lingkaran yang terdeteksi di halaman ini)
+
+1. Iterasi Semua Kata OCR
+Loop setiap elemen word (OCR bounding box):
+a. Ambil teks (text)
+b. Ambil posisi (x, y, width, height)
+c. Ambil confidence (conf)
+
+2. Deteksi Teks Kunci (Caption Candidates)
+Periksa teks dan klasifikasikan:
+	✅ ITEM-\w+ → tipe caption ITEM
+	✅ SCALE \d+:\d+ → tipe caption SCALE
+	✅ ^-\d{2,4}$ → tipe caption ID-LINGKARAN
+
+Lalu simpan sebagai struktur json
+[
+  'element' => 'caption',
+  'type' => 'ITEM' | 'SCALE' | 'ID-LINGKARAN',
+  'text-caption' => 'ITEM-010' | 'SCALE 1:1' | '-201',
+  'bounding_box' => [...],
+  'ocr_confidence' => 92,
+  'in_shape' => 'circle' / 'none', // hanya untuk ID-LINGKARAN
+]
+
+3. Cek Jika Teks Berada di Dalam Lingkaran
+Khusus teks -xxx
+Jika shape data (dari OpenCV) tersedia:
+a. Untuk tiap lingkaran: center(x, y), radius
+b. Cek apakah titik tengah bbox -201 ada di dalam radius lingkaran
+c. Jika ya, beri in_shape = "circle", kalau tidak "none"
+
+📤 4. Return Output
+Kembalikan array:
+[
+  [
+    'element' => 'caption',
+    'type' => 'ITEM',
+    'text-caption' => 'ITEM-010',
+    'bounding_box' => [...],
+    'ocr_confidence' => 90,
+    'in_shape' => 'none',
+  ],
+  [
+    'element' => 'caption',
+    'type' => 'ID-LINGKARAN',
+    'text-caption' => '-201',
+    'bounding_box' => [...],
+    'ocr_confidence' => 93,
+    'in_shape' => 'circle',
+  ],
+  ...
+]
+
+Langkah-Langkah Implementasi:
+Loop semua kata OCR
+a. Cocokkan pola teks (regex)
+b. Simpan sebagai objek caption
+c. Jika tipe ID-LINGKARAN, cek posisi terhadap lingkaran dari OpenCV
+d. Simpan ke array
+
+Return hasil deteksi caption untuk halaman ini
+

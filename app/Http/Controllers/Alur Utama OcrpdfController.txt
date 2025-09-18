@@ -1,0 +1,26 @@
+Alur Utama OcrpdfController
+Langkah	Deskripsi Singkat
+1️⃣ Upload File PDF	File PDF dikirim melalui form Laravel, divalidasi, lalu disimpan ke folder storage/app/uploads.
+2️⃣ Konversi PDF ke Gambar	Setiap halaman PDF dirender jadi image (.jpg) via Imagick, disimpan di folder images/.
+3️⃣ OCR Proses (TSV)	Jalankan Tesseract untuk setiap halaman → hasil OCR TSV dikonversi jadi JSON (words, lines, bbox).
+4️⃣ Pembersihan Data OCR	Hilangkan spasi kosong/karakter aneh dari hasil OCR, hanya simpan teks valid dan terstruktur.
+5️⃣ Klasifikasi Halaman	Tentukan tipe halaman (C, D, R) berdasarkan teks, layout, dan kata kunci seperti DRAWING NO, dsb.
+6️⃣ Ekstraksi Drawing No	Cari nomor gambar (pattern seperti Z123456, 123456-001) dalam OCR dan simpan sebagai metadata halaman.
+7️⃣ Deteksi Layout Page D	Khusus halaman type = D, jalankan:
+• DetectPolaPageD
+• TextPageDGambarItemDetector
+• (opsional: PageDRegionCaptionDetector)
+8️⃣ Strukturisasi JSON OCR	Simpan hasil OCR final + metadata lengkap (per halaman) dalam format .json ke folder ocrjson/.
+9️⃣ Generate File .AI	Gunakan JSX untuk mengirimkan file ke Adobe Illustrator, lalu hasilnya disimpan dalam folder converted/.
+🔟 Ekspor ZIP & TXT	Semua hasil (AI, JSON, TXT, log) dikemas dalam file .zip untuk diunduh, disimpan di folder exports/.
+🔚 Tampilkan Result View	Di-redirect ke halaman result.blade.php yang menampilkan nama file, waktu proses, dan link hasil-hasilnya.
+
+Jika Anda nanti mengaktifkan visual caption/content layout, maka langkah 7 akan ditambahkan dengan helper:
+
+PageDRegionCaptionDetector
+
+PageDRegionContentDetector
+
+atau versi gabungan PageDRegionCaptionContentDetector
+
+Perluasan logika Page D akan tetap modular di dalam alur utama ini.

@@ -1,0 +1,28 @@
+DRAWING NO NOISE
+================================================================
+1. Noise Drawing-No 11351610-038
+2. Noise Drawing-No, 11351610-038, PAGE 06
+3. PAGE 13 Noise ‘ast1951610-002 : 	Drawing-no? Arabic?
+4. PAGE 14 Noise Drawing No 11351610-101 di ITEM-101
+5. Noise Drawing No ITEM-132  A811351610-132 
+
+
+NOISE
+1. 41L terbaca 4iL (ITEM-017)
+2. Noise Drawing-No 11351610-038
+3. Noise "z" (harusnya 44L), ITEM-022
+4. Noise Drawing-No, 11351610-038, PAGE 06
+5. Noise  __ REMOVE THIS LINING, PAGE 07
+6. PAGE 09 Noise yang sebenarnya gambar
+	a. "J"
+	b. "=|"
+	c. "\\",
+7. PAGE 13 Noise ‘ast1951610-002 : 	Drawing-no? Arabic?
+8. PAGE 14 Noise Drawing No 11351610-101 di ITEM-101
+9. Noise ITEM-115	
+	SPDB1i2 --> seharusnya SPDB12
+10. Noise ITEM-120	UNIT COUPLER =
+11. Noise ITEM-122	558
+12. Noise ITEM-123	558
+13. Noise "THIS \u2014 LINING"
+14. Noise Drawing No ITEM-132  A811351610-132 

@@ -3,14 +3,8 @@
     <!-- Profil Pengguna -->
     <li class="nav-item nav-profile">
       <a href="#" class="nav-link">
-        <div class="profile-image">
-          <img class="img-xs rounded-circle" 
-               src="stellar/dist/assets/images/faces/face8.jpg" 
-               alt="profile image">
-          <div class="dot-indicator bg-success"></div>
-        </div>
         <div class="text-wrapper">
-          <p class="profile-name">Raouda Moufida</p>
+          <p class="profile-name">Mr. Fuadi</p>
           <p class="designation">Administrator</p>
         </div>
       </a>
@@ -18,6 +12,8 @@
 
     <!-- Sidebar dari Array Statis -->
     @foreach($sidebarMenu as $menu)
+      
+         
       <!-- Menu Category -->
       <li class="nav-item nav-category">
         <span class="nav-link">{{ $menu['title'] }}</span>
@@ -25,12 +21,14 @@
       
       <!-- Menu Buttons -->
       @foreach($menu['tombol'] as $tombol)
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <span class="menu-title">{{ $tombol['nama'] }}</span>
-            <i class="icon-screen-desktop menu-icon"></i>
-          </a>
-        </li>
+        @if($tombol['show'] == 1)
+          <li class="nav-item">
+            <a class="nav-link" href="{{ $tombol['link'] }}">
+              <span class="menu-title">{{ $tombol['nama'] }}</span>
+              <i class="{{ $tombol['icon'] }}"></i>
+            </a>
+          </li>
+        @endif
       @endforeach
     @endforeach
   </ul>

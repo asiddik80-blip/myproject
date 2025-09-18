@@ -2,107 +2,66 @@
 
 namespace App\Data;
 
-class sidebar
+class Sidebar
 {
     public static function getAll()
     {
         return [
             [
                 'no'    => 1,
-                'title' => 'KBIH',
+                'title' => 'Testing',
                 'tombol' => [
                     [
-                        'nama'  => 'Ayman',
-                        'icon'  => 'mdi mdi-apps menu-icon',
-                        'link'  => 'dashboard',
-                        'level'  => '1'
+                        'nama'  => 'PDF to AI',
+                        'icon'  => 'fa fa-laptop menu-icon',
+                        'link'  => 'convert-pdf',
+                        'level' => '1',
+                        'show'  => '0'
                     ],
                     [
-                        'nama'  => 'Profil',
-                        'icon'  => 'mdi mdi-apps menu-icon',
-                        'link'  => 'profilKBIH',
-                        'level'  => '1'
+                        'nama'  => 'Multiple Illustrator',
+                        'icon'  => 'fa fa-laptop menu-icon',
+                        'link'  => 'convert-multiple-pdf',
+                        'level' => '1',
+                        'show'  => '0'
                     ],
                     [
-                        'nama'  => 'Pemberangkatan',
-                        'icon'  => 'mdi mdi-apps menu-icon',
-                        'link'  => 'pemberangkatan',
-                        'level'  => '1'
+                        'nama'  => 'Macwin PDF',
+                        'icon'  => 'fa fa-mac menu-icon',
+                        'link'  => 'macwinpdf',
+                        'level' => '1',
+                        'show'  => '0'
                     ],
                     [
-                        'nama'  => 'Formasi',
-                        'icon'  => 'mdi mdi-apps menu-icon',
-                        'link'  => 'formasi',
-                        'level' => '1'
+                        'nama'  => 'Cek Vektor PDF',
+                        'icon'  => 'fa fa-mac menu-icon',
+                        'link'  => 'cekvektorpdf',
+                        'level' => '1',
+                        'show'  => '0'
+                    ],
+                    [
+                        'nama'  => 'Convert PDF',
+                        'icon'  => 'fa fa-mac menu-icon',
+                        'link'  => 'ocrpdf',
+                        'level' => '1',
+                        'show'  => '1'
                     ],
                 ],
             ],
             [
                 'no'    => 2,
-                'title' => 'User',
+                'title' => ' ',
                 'tombol' => [
                     [
-                        'nama'  => 'Jamaah',
-                        'icon'  => 'mdi mdi-floor-plan menu-icon',
-                        'link'  => 'jamaah',
-                        'level'  => '1'
-                    ],
-                    [
-                        'nama'  => 'Manasik',
-                        'icon'  => 'mdi mdi-floor-plan menu-icon',
-                        'link'  => 'manasik',
-                        'level' => '1'
+                        'nama'  => 'Page D Sub Class ITEM',
+                        'icon'  => 'fa fa-laptop menu-icon',
+                        'link'  => 'debugpaged',
+                        'level' => '1',
+                        'show'  => '0'
                     ],
                 ],
             ],
-            [
-                'no'    => 3,
-                'title' => 'Akomodasi',
-                'tombol' => [
-                    [
-                        'nama'  => 'Pesawat',
-                        'icon'  => 'mdi mdi-account-circle-outline menu-icon',
-                        'link'  => 'pesawat',
-                        'level'  => '1'
-                    ],
-                    [
-                        'nama'  => 'Hotel',
-                        'icon'  => 'mdi mdi-table menu-icon',
-                        'link'  => 'hotel',
-                        'level'  => '1'
-                    ],
-                    [
-                        'nama'  => 'Bus',
-                        'icon'  => 'mdi mdi-chart-line menu-icon',
-                        'link'  => 'bus',
-                        'level'  => '1'
-                    ],
-                    [
-                        'nama'  => 'Kereta Api',
-                        'icon'  => 'mdi mdi-layers-outline menu-icon',
-                        'link'  => 'kereta',
-                        'level'  => '2'
-                    ],
-                    [
-                        'nama'  => 'Logistik',
-                        'icon'  => 'mdi mdi-layers-outline menu-icon',
-                        'link'  => 'logistik',
-                        'level'  => '2'
-                    ],
-                ],
-            ],
-            [
-                'no'    => 4,
-                'title' => 'Dokumentasi',
-                'tombol' => [
-                    [
-                        'nama'  => 'Upload PDF',
-                        'icon'  => 'mdi mdi-card-text-outline menu-icon',
-                        'link'  => 'uploadpdf',
-                        'level'  => '1'
-                    ],
-                ],
-            ],
+            
         ];
     }
 }

@@ -1,0 +1,19 @@
+
+Ringkasan Modularisasi (Selesai)
+
+******************************************************************************************
+
+
+
+-------------------------------------------------------------------------------------------
+Helper Class	                    Fungsi Utama
+-------------------------------------------------------------------------------------------
+PDFUploaderHelper	                Simpan dan hitung halaman PDF saat upload
+ImagickPageHelper	                Dapatkan jumlah halaman dan ukuran halaman
+OCRTSVParser	                    Parse file .tsv hasil Tesseract
+PageTypeClassifier	                Tentukan jenis halaman (C, D, R)
+DrawingNumberExtractor	            Ekstrak kandidat "drawing-no"
+JsonOCRWriter	                    Simpan & update metadata JSON hasil OCR
+JSXBuilder	                        Susun file JSX dari template dan file list
+IllustratorInvoker	                Jalankan proses Adobe Illustrator via .bat
+ZIPExporter	                        Buat dan unduh ZIP file hasil .ai

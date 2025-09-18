@@ -1,0 +1,744 @@
+{
+    "filename": "fileujicoba3hal-20250918044657-vosY_page_03.jpg",
+    "metadata": {
+        "original_filename": "FILEUJICOBA3HAL.pdf",
+        "stored_filename": "fileujicoba3hal-20250918044657-vosY.pdf",
+        "page_type": "R",
+        "drawing-no": "",
+        "timestamp": "2025-09-18 04:47:12",
+        "page_number": "03",
+        "total_pages": 3,
+        "pdf_filesize_kb": 147,
+        "pdf_dimensions": "842 x 595 pt",
+        "ocr_engine": "Tesseract v5.3.1 (TSV)"
+    },
+    "text": "REVISIONS DATE REV DESCRIPTION DRAWN BY: CHECKED BY: APPROVED BY: SHT\/ZONE | | TR (DD-MMM-YYYY) ENGINEER NUR EKO ALL = ORIGINAL ISSUE (EWR : EYEng\/EWR\/0223\/3812) 27-FEB-2023 RAMON CASTRO PAUL MORALES BUDIYANTO PLACARD \/ MARKING DRAWING NO. REV LTR A511351610 SHEET 22 \\ 132 131 130 129 128 127 \\\\ EYEng\/TS\/8660 ISSUE 13 DEC 2021",
+    "words": [
+        {
+            "text": "REVISIONS",
+            "conf": 96,
+            "top": 235,
+            "bbox": {
+                "left": 3136,
+                "top": 235,
+                "width": 256,
+                "height": 37
+            }
+        },
+        {
+            "text": "DATE",
+            "conf": 96,
+            "top": 306,
+            "bbox": {
+                "left": 3255,
+                "top": 306,
+                "width": 92,
+                "height": 26
+            }
+        },
+        {
+            "text": "REV",
+            "conf": 96,
+            "top": 312,
+            "bbox": {
+                "left": 1932,
+                "top": 312,
+                "width": 71,
+                "height": 26
+            }
+        },
+        {
+            "text": "DESCRIPTION",
+            "conf": 96,
+            "top": 333,
+            "bbox": {
+                "left": 2542,
+                "top": 333,
+                "width": 242,
+                "height": 26
+            }
+        },
+        {
+            "text": "DRAWN",
+            "conf": 96,
+            "top": 329,
+            "bbox": {
+                "left": 3523,
+                "top": 329,
+                "width": 131,
+                "height": 26
+            }
+        },
+        {
+            "text": "BY:",
+            "conf": 95,
+            "top": 329,
+            "bbox": {
+                "left": 3670,
+                "top": 329,
+                "width": 51,
+                "height": 26
+            }
+        },
+        {
+            "text": "CHECKED",
+            "conf": 96,
+            "top": 310,
+            "bbox": {
+                "left": 3858,
+                "top": 310,
+                "width": 173,
+                "height": 26
+            }
+        },
+        {
+            "text": "BY:",
+            "conf": 96,
+            "top": 310,
+            "bbox": {
+                "left": 4046,
+                "top": 310,
+                "width": 51,
+                "height": 26
+            }
+        },
+        {
+            "text": "APPROVED",
+            "conf": 96,
+            "top": 333,
+            "bbox": {
+                "left": 4186,
+                "top": 333,
+                "width": 200,
+                "height": 26
+            }
+        },
+        {
+            "text": "BY:",
+            "conf": 95,
+            "top": 333,
+            "bbox": {
+                "left": 4401,
+                "top": 333,
+                "width": 51,
+                "height": 26
+            }
+        },
+        {
+            "text": "SHT\/ZONE",
+            "conf": 91,
+            "top": 333,
+            "bbox": {
+                "left": 1709,
+                "top": 333,
+                "width": 179,
+                "height": 26
+            }
+        },
+        {
+            "text": "|",
+            "conf": 87,
+            "top": 329,
+            "bbox": {
+                "left": 1896,
+                "top": 329,
+                "width": 18,
+                "height": 50
+            }
+        },
+        {
+            "text": "|",
+            "conf": 87,
+            "top": 349,
+            "bbox": {
+                "left": 1932,
+                "top": 349,
+                "width": 11,
+                "height": 26
+            }
+        },
+        {
+            "text": "TR",
+            "conf": 89,
+            "top": 349,
+            "bbox": {
+                "left": 1950,
+                "top": 349,
+                "width": 47,
+                "height": 26
+            }
+        },
+        {
+            "text": "(DD-MMM-YYYY)",
+            "conf": 91,
+            "top": 358,
+            "bbox": {
+                "left": 3177,
+                "top": 358,
+                "width": 255,
+                "height": 31
+            }
+        },
+        {
+            "text": "ENGINEER",
+            "conf": 96,
+            "top": 350,
+            "bbox": {
+                "left": 3885,
+                "top": 350,
+                "width": 186,
+                "height": 26
+            }
+        },
+        {
+            "text": "NUR",
+            "conf": 96,
+            "top": 407,
+            "bbox": {
+                "left": 3836,
+                "top": 407,
+                "width": 73,
+                "height": 29
+            }
+        },
+        {
+            "text": "EKO",
+            "conf": 96,
+            "top": 407,
+            "bbox": {
+                "left": 3922,
+                "top": 407,
+                "width": 71,
+                "height": 29
+            }
+        },
+        {
+            "text": "ALL",
+            "conf": 96,
+            "top": 425,
+            "bbox": {
+                "left": 1766,
+                "top": 425,
+                "width": 65,
+                "height": 26
+            }
+        },
+        {
+            "text": "=",
+            "conf": 54,
+            "top": 455,
+            "bbox": {
+                "left": 1938,
+                "top": 455,
+                "width": 52,
+                "height": 3
+            }
+        },
+        {
+            "text": "ORIGINAL",
+            "conf": 96,
+            "top": 428,
+            "bbox": {
+                "left": 2038,
+                "top": 428,
+                "width": 172,
+                "height": 26
+            }
+        },
+        {
+            "text": "ISSUE",
+            "conf": 96,
+            "top": 428,
+            "bbox": {
+                "left": 2223,
+                "top": 428,
+                "width": 105,
+                "height": 26
+            }
+        },
+        {
+            "text": "(EWR",
+            "conf": 93,
+            "top": 428,
+            "bbox": {
+                "left": 2342,
+                "top": 428,
+                "width": 94,
+                "height": 34
+            }
+        },
+        {
+            "text": ":",
+            "conf": 92,
+            "top": 435,
+            "bbox": {
+                "left": 2450,
+                "top": 435,
+                "width": 3,
+                "height": 19
+            }
+        },
+        {
+            "text": "EYEng\/EWR\/0223\/3812)",
+            "conf": 91,
+            "top": 427,
+            "bbox": {
+                "left": 2470,
+                "top": 427,
+                "width": 401,
+                "height": 35
+            }
+        },
+        {
+            "text": "27-FEB-2023",
+            "conf": 91,
+            "top": 427,
+            "bbox": {
+                "left": 3199,
+                "top": 427,
+                "width": 203,
+                "height": 27
+            }
+        },
+        {
+            "text": "RAMON",
+            "conf": 96,
+            "top": 420,
+            "bbox": {
+                "left": 3479,
+                "top": 420,
+                "width": 127,
+                "height": 29
+            }
+        },
+        {
+            "text": "CASTRO",
+            "conf": 96,
+            "top": 420,
+            "bbox": {
+                "left": 3620,
+                "top": 420,
+                "width": 145,
+                "height": 29
+            }
+        },
+        {
+            "text": "PAUL",
+            "conf": 95,
+            "top": 427,
+            "bbox": {
+                "left": 4175,
+                "top": 427,
+                "width": 86,
+                "height": 27
+            }
+        },
+        {
+            "text": "MORALES",
+            "conf": 95,
+            "top": 427,
+            "bbox": {
+                "left": 4273,
+                "top": 427,
+                "width": 163,
+                "height": 27
+            }
+        },
+        {
+            "text": "BUDIYANTO",
+            "conf": 90,
+            "top": 445,
+            "bbox": {
+                "left": 3836,
+                "top": 445,
+                "width": 202,
+                "height": 29
+            }
+        },
+        {
+            "text": "PLACARD",
+            "conf": 91,
+            "top": 3021,
+            "bbox": {
+                "left": 3058,
+                "top": 3021,
+                "width": 329,
+                "height": 23
+            }
+        },
+        {
+            "text": "\/",
+            "conf": 91,
+            "top": 3017,
+            "bbox": {
+                "left": 3219,
+                "top": 3017,
+                "width": 21,
+                "height": 39
+            }
+        },
+        {
+            "text": "MARKING",
+            "conf": 96,
+            "top": 3021,
+            "bbox": {
+                "left": 3252,
+                "top": 3021,
+                "width": 135,
+                "height": 23
+            }
+        },
+        {
+            "text": "DRAWING",
+            "conf": 95,
+            "top": 3021,
+            "bbox": {
+                "left": 3410,
+                "top": 3021,
+                "width": 152,
+                "height": 23
+            }
+        },
+        {
+            "text": "NO.",
+            "conf": 95,
+            "top": 3021,
+            "bbox": {
+                "left": 3584,
+                "top": 3021,
+                "width": 52,
+                "height": 23
+            }
+        },
+        {
+            "text": "REV",
+            "conf": 93,
+            "top": 3022,
+            "bbox": {
+                "left": 4046,
+                "top": 3022,
+                "width": 63,
+                "height": 23
+            }
+        },
+        {
+            "text": "LTR",
+            "conf": 93,
+            "top": 3022,
+            "bbox": {
+                "left": 4121,
+                "top": 3022,
+                "width": 60,
+                "height": 23
+            }
+        },
+        {
+            "text": "A511351610",
+            "conf": 82,
+            "top": 3067,
+            "bbox": {
+                "left": 3542,
+                "top": 3067,
+                "width": 297,
+                "height": 39
+            }
+        },
+        {
+            "text": "SHEET",
+            "conf": 95,
+            "top": 3090,
+            "bbox": {
+                "left": 4230,
+                "top": 3090,
+                "width": 106,
+                "height": 23
+            }
+        },
+        {
+            "text": "22",
+            "conf": 96,
+            "top": 3074,
+            "bbox": {
+                "left": 4358,
+                "top": 3074,
+                "width": 41,
+                "height": 28
+            }
+        },
+        {
+            "text": "\\",
+            "conf": 88,
+            "top": 3136,
+            "bbox": {
+                "left": 4445,
+                "top": 3136,
+                "width": 52,
+                "height": 54
+            }
+        },
+        {
+            "text": "132",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 535,
+                "top": 3208,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "131",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 1246,
+                "top": 3208,
+                "width": 54,
+                "height": 28
+            }
+        },
+        {
+            "text": "130",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 1946,
+                "top": 3208,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "129",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 2615,
+                "top": 3208,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "128",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 3360,
+                "top": 3208,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "127",
+            "conf": 96,
+            "top": 3208,
+            "bbox": {
+                "left": 4106,
+                "top": 3208,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "\\\\",
+            "conf": 66,
+            "top": 3182,
+            "bbox": {
+                "left": 4211,
+                "top": 3182,
+                "width": 41,
+                "height": 42
+            }
+        },
+        {
+            "text": "EYEng\/TS\/8660",
+            "conf": 91,
+            "top": 3251,
+            "bbox": {
+                "left": 3793,
+                "top": 3251,
+                "width": 229,
+                "height": 30
+            }
+        },
+        {
+            "text": "ISSUE",
+            "conf": 96,
+            "top": 3251,
+            "bbox": {
+                "left": 4100,
+                "top": 3251,
+                "width": 95,
+                "height": 23
+            }
+        },
+        {
+            "text": "13",
+            "conf": 96,
+            "top": 3251,
+            "bbox": {
+                "left": 4217,
+                "top": 3251,
+                "width": 32,
+                "height": 23
+            }
+        },
+        {
+            "text": "DEC",
+            "conf": 96,
+            "top": 3251,
+            "bbox": {
+                "left": 4352,
+                "top": 3251,
+                "width": 66,
+                "height": 23
+            }
+        },
+        {
+            "text": "2021",
+            "conf": 96,
+            "top": 3251,
+            "bbox": {
+                "left": 4429,
+                "top": 3251,
+                "width": 65,
+                "height": 23
+            }
+        }
+    ],
+    "lines": [
+        {
+            "text": "REVISIONS",
+            "bbox": {
+                "left": 3136,
+                "top": 235,
+                "width": 256,
+                "height": 37
+            },
+            "word_count": 1
+        },
+        {
+            "text": "DATE REV CHECKED BY:",
+            "bbox": {
+                "left": 1932,
+                "top": 306,
+                "width": 2165,
+                "height": 32
+            },
+            "word_count": 4
+        },
+        {
+            "text": "SHT\/ZONE | DESCRIPTION DRAWN BY: APPROVED BY: | TR ENGINEER (DD-MMM-YYYY)",
+            "bbox": {
+                "left": 1709,
+                "top": 329,
+                "width": 2743,
+                "height": 60
+            },
+            "word_count": 11
+        },
+        {
+            "text": "NUR EKO RAMON CASTRO ORIGINAL ISSUE (EWR EYEng\/EWR\/0223\/3812) 27-FEB-2023 PAUL MORALES :",
+            "bbox": {
+                "left": 2038,
+                "top": 407,
+                "width": 2398,
+                "height": 55
+            },
+            "word_count": 12
+        },
+        {
+            "text": "ALL",
+            "bbox": {
+                "left": 1766,
+                "top": 425,
+                "width": 65,
+                "height": 26
+            },
+            "word_count": 1
+        },
+        {
+            "text": "BUDIYANTO",
+            "bbox": {
+                "left": 3836,
+                "top": 445,
+                "width": 202,
+                "height": 29
+            },
+            "word_count": 1
+        },
+        {
+            "text": "=",
+            "bbox": {
+                "left": 1938,
+                "top": 455,
+                "width": 52,
+                "height": 3
+            },
+            "word_count": 1
+        },
+        {
+            "text": "PLACARD \/ MARKING DRAWING NO. REV LTR",
+            "bbox": {
+                "left": 3058,
+                "top": 3017,
+                "width": 1123,
+                "height": 39
+            },
+            "word_count": 7
+        },
+        {
+            "text": "A511351610 22 SHEET",
+            "bbox": {
+                "left": 3542,
+                "top": 3067,
+                "width": 857,
+                "height": 46
+            },
+            "word_count": 3
+        },
+        {
+            "text": "\\",
+            "bbox": {
+                "left": 4445,
+                "top": 3136,
+                "width": 52,
+                "height": 54
+            },
+            "word_count": 1
+        },
+        {
+            "text": "\\\\",
+            "bbox": {
+                "left": 4211,
+                "top": 3182,
+                "width": 41,
+                "height": 42
+            },
+            "word_count": 1
+        },
+        {
+            "text": "132 131 130 129 128 127",
+            "bbox": {
+                "left": 535,
+                "top": 3208,
+                "width": 3630,
+                "height": 28
+            },
+            "word_count": 6
+        },
+        {
+            "text": "132 131 130 129 128 127",
+            "bbox": {
+                "left": 535,
+                "top": 3208,
+                "width": 3630,
+                "height": 28
+            },
+            "word_count": 6
+        }
+    ]
+}

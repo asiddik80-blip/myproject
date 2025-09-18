@@ -1,0 +1,36 @@
+Berdasarkan alur gabungan (High-Level) dan struktur JSON yang sedang kita bangun untuk halaman Page D, berikut adalah daftar helper yang perlu dibuat atau dikembangkan setelah PageDRegionCaptionDetector.php, beserta fungsinya:
+
+✅ Sudah Dibuat
+PageDRegionCaptionDetector.php
+→ Mendeteksi caption region seperti ITEM-xxx, SCALE, -201, dan lingkaran.
+
+📌 Belum Dibuat (Perlu Dibuat Selanjutnya)
+PageDRegionContentDetector.php
+→ Mendeteksi blok teks yang merupakan isi dari gambar.
+→ Berdasarkan posisi relatif terhadap caption (biasanya di atas ITEM-xxx).
+→ Mengembalikan array text-content dan koordinat bounding box gabungannya.
+
+PageDVisualShapeDetector.php
+→ Menggunakan hasil deteksi visual (misalnya OpenCV) untuk mengetahui apakah suatu teks berada dalam bentuk (lingkaran, kotak, dll).
+→ Sebenarnya sudah sedikit dilakukan dalam PageDRegionCaptionDetector, tapi bisa dipisah untuk keperluan generalisasi.
+
+PageDComponentBuilder.php
+→ Menggabungkan hasil caption dan content menjadi 1 blok component.
+→ Memastikan bounding box dan metadata (text style, posisi, relasi, dst) lengkap.
+
+PageDLayoutAssembler.php
+→ Menggabungkan semua komponen menjadi struktur layout final.
+→ Dimasukkan ke dalam layout_analysis dalam JSON per halaman.
+
+(Opsional, jika ingin deteksi lebih lanjut)
+PageDTextStyleAnalyzer.php
+→ Menganalisis gaya teks (warna, ukuran, font style) jika bisa diambil dari OCR/visual.
+
+PageDStructureValidator.php
+→ Memastikan struktur komponen tidak tumpang tindih, layout konsisten, dan valid.
+
+🔁 Integrasi Final
+Setelah semua helper di atas selesai, bisa dibuat 1 helper agregat:
+
+PageDLayoutAnalyzer.php
+→ Memanggil semua helper di atas (detektor caption, content, visual, layout assembler) dan menghasilkan 1 struktur layout lengkap dalam JSON.

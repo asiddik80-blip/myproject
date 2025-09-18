@@ -1,0 +1,312 @@
+***************************************************************
+*							      *
+*							      *
+*							      *
+* TESTING PAGE D 					      *
+* (file converted 1 Agustus 2025 jam 1:52)  		      *
+*							      *
+*							      *
+***************************************************************
+
+DETAIL PER PAGE
+--------------------------------------------------------------- 
+PAGE 02
+--------------------------------------------------------------- 
+
+Hasil
+1. Deteksi 2 kotak VB, harusnya 9
+2. Deteksi 8 Anchor, harusnya 9 (ITEM-006 tidak terdeteksi)
+3. Muncul noise _ REMOVE THIS LINING
+
+
+
+--------------------------------------------------------------- 
+PAGE 03
+--------------------------------------------------------------- 
+1. Deteksi 7 kotak VB, harusnya 8
+2. Caption terdeteksi 8 (sudah benar)
+3. Anchor terdeteksi 7 (seharusnya 8 sesuai caption)
+4. 41L terbaca 4iL (ITEM-017)
+
+--------------------------------------------------------------- 
+PAGE 04 (SETELAH UPDATE PAPER ZONE)
+ITEM-018 -- ITEM-029
+--------------------------------------------------------------- 
+Hasil
+1. Caption Detected 12, sudah benar
+2. Deteksi Anchor 9, seharusnya 12
+3. Visual Box 9, seharusnya 12
+
+Noise 
+ITEM-022 "z", seharusnya 44L
+--------------------------------------------------------------- 
+PAGE 05 
+ITEM-030 -- ITEM-037
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 8, sudah benar
+2. Deteksi Anchor 6, harusnya 8
+3. Visual Box 6, harusnya 8
+
+
+--------------------------------------------------------------- 
+PAGE 06
+ITEM-038 -- ITEM-041
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 4, sudah benar
+2. Deteksi Anchor 4, benar
+3. VB 4, benar
+4. Noise Drawing-No
+	ACCESS TO BULK CARGO COMPARTMENT HEATER + HEATER CONTROLLER BULK 	
+	CARGO COMPARTMENT SUPPLY ISOLATION VALVE 11351610-038, 
+	REMOVE THIS LINING
+5. HEATER + HEATER --> Tanda + di sini bukan noise
+
+--------------------------------------------------------------- 
+PAGE 07
+ITEM-042 -- ITEM-046
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 5, sudah benar
+2. Deteksi Anchor 5, benar
+3. VB 5, benar
+4. Noise  __ REMOVE THIS LINING
+
+--------------------------------------------------------------- 
+PAGE 08
+ITEM-047 -- ITEM-050
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 4, sudah benar
+2. Deteksi Anchor 4, benar
+3. VB 4, benar
+4. TEKS
+	ITEM-048 ES 
+	--> Seharusnya gambar besar dengan banyak layout di dalamnya
+	
+	ITEM-049 Lav a OF TO i < 1S) all FWD
+	--> Posisi teks sebenarnya ada yang terbalik, horizontal, dsb
+
+
+--------------------------------------------------------------- 
+PAGE 09
+ITEM-051 -- ITEM-056
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 6, sudah benar
+2. Deteksi Anchor 5, harusnya 6
+3. VB 5, harusnya 6
+4. Kotak di VB ITEM-054, garis atas betul-betul tepat menyentuh Zona Paper
+5. Noise yang sebenarnya gambar
+	a. "J"
+	b. "=|"
+	c. "\\",
+6. Arabic
+	Seal cg 9) cgay 6 (ULD) Jat
+7. VB4 tidak valid tetapi dianggap sebagi Placard
+		x=419, y=129, w=4097, h=1358
+
+--------------------------------------------------------------- 
+PAGE 10
+ITEM-057 -- ITEM-065
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 9, sudah benar
+2. Deteksi Anchor 9 
+3. VB 9
+4. Arabic 
+	ITEM-059
+	a5 UU Aa gl!
+
+--------------------------------------------------------------- 
+PAGE 11
+ITEM-066 -- ITEM-076
+--------------------------------------------------------------- 
+Hasil
+1. Caption Detected 12, sudah benar
+2. Deteksi Anchor 9
+3. VB 9
+4. Garis tepi kanan Paper Zone agak mepet dengan garis kotak VB
+
+--------------------------------------------------------------- 
+PAGE 12
+ITEM-078 -- ITEM-088
+--------------------------------------------------------------- 
+Hasil
+1. Caption Detected 12, sudah benar
+2. Deteksi Anchor 9
+3. VB 9
+
+
+--------------------------------------------------------------- 
+PAGE 13
+ITEM-090 -- ITEM-097
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 8, sudah benar
+2. Deteksi Anchor 6
+3. VB 6
+
+Noise
+1. ITEM-091	5 2 S 8 4 Ea
+2. ITEM-092	CAUTION ltl CLOSE DOOR BEFORE FLIGHT ‘ast1951610-002
+	lt1 		: Arabic
+	‘ast1951610-002 : Drawing-no? Arabic?
+3. ITEM-092	SS  --> teks terlalu kecil jadi tak terbaca (--psm)
+
+
+
+--------------------------------------------------------------- 
+PAGE 14 	
+ITEM-098 -- ITEM-101
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 4, sudah benar
+2. Deteksi Anchor 4
+3. VB 4
+4. Muncul Noise Drawing No 
+
+
+
+--------------------------------------------------------------- 
+PAGE 15
+ITEM-102 -- ITEM-105
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 4, sudah benar
+2. Deteksi Anchor 4
+3. VB 4
+
+
+--------------------------------------------------------------- 
+PAGE 16 (setelah update Zona Paper)
+ITEM-106 -- ITEM-109
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 3, ini aneh karena seharusnya 4
+2. Deteksi Anchor 4
+3. VB 4
+
+
+--------------------------------------------------------------- 
+PAGE 17
+ITEM-110 -- ITEM-114
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 5
+2. Deteksi Anchor 5
+3. VB 5
+
+
+Note 
+ITEM-133 Placard super kompleks, need more deep, terdeteksi :
+	
+& Cres 1 2 5 COMP COMP. 2 | 11P [) 12P 13P 14P 21P 22P 23P_ 24P | MAXIMUM ALLOWABLE LOADS 241 5 y Ai gent anil MAXIMUM COMPARTMENT LOAD el lS 26500 KG /3 jal 58422 LB bj Al gaat anil MAXIMUM COMPARTMENT LOAD 12R|13R | 16R|21R |22R | 23R|24R|25R [26R | 8 3a 3500 5 1588: K- p22 K-SIZE: 1588 KG/3500 LB & yas) 7000 K- L-SIZE: 3175 KG/7000 LB 4626 : A-SIZE: 4626KG / 10200LB 5103 M-SIZE:5103 KG / 11250LB gl) oot onl MAXIMUM CONTOUR: F OS ol) ge gl go Al les FOR PERMISSIBLE UNIT LOAD DEVICES AND LOADING LIMITATIONS REFER TO WEIGHT AND BALANCE MANUAL
+
+
+
+--------------------------------------------------------------- 
+PAGE 18 (setelah update Zona Paper)
+ITEM-115 -- ITEM-120
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 6
+2. Deteksi Anchor 6
+3. VB 6
+
+Noise
+1. ITEM-115	SPDB1i2 --> seharusnya SPDB12
+2. ITEM-120	UNIT COUPLER =
+
+Note :
+ITEM-116 Placard Super Kompleks
+
+Terdeteksi :
+QI lad OXYGEN FILLING PRESSURE , , | 50 | 22 141.2 | 2048/5 | 45 | 2016 |e | 9 30 | 86 (Bou 3348 | 25 | 7130.2 | 1889] SG geaal 2 [68 ts sa 125.9 | 186 |W ERS $2 i | 50 [423.7 | 1794) 40 4 [sat | 1762) 5 | 82 | 1731 | 5 | 23 (117.1 | 1690/26 6 [| | a | 1667 |e x 5 5 » 20 | 4 2 25 | 108.4 | 1572 | 3 of & = 22 106.2 | 1541 | 4° % | | 31 [104.0 [1509 [| [40 | 1477} 2 = 2100 PSIG 43 gq % DURING FILLING 10% HIGHER PRESSURE 7 UP TO MAX. 2100 PSIG ALLOWED L Aimed Jeol) shel jay NATIONAL RULES FOR OXYGEN FILLING TO BE OBSERVED
+
+
+--------------------------------------------------------------- 
+PAGE 19
+ITEM-121 -- ITEM-124
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 4
+2. Deteksi Anchor 4
+3. VB 4
+
+Noise
+1. ITEM-122	558
+2. ITEM-123	558
+
+Note
+1. 558 seharusnya teks biasa yang terbaca, entah kenapa tak bisa ditangkap --psm manapun
+2. "realismScore": 65 untuk keduanya, jadi sangat aneh
+
+
+
+
+--------------------------------------------------------------- 
+PAGE 20
+ITEM-125 -- ITEM-131
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 7
+2. Deteksi Anchor 5
+3. VB 5, 
+
+Tidak terdeteksi
+ITEM-130-131 
+
+Noise
+
+{
+                "line_no": 6,
+                "text": "THIS \u2014 LINING",
+                "role": "body"
+            }
+
+
+
+
+
+--------------------------------------------------------------- 
+PAGE 21
+ITEM-132 -- ITEM-134
+--------------------------------------------------------------- 
+
+Hasil
+1. Caption Detected 3, benar
+2. Deteksi Anchor 3, benar
+3. VB 3, benar 
+
+
+Noise
+Muncul Drawing-No
+ITEM-132  A811351610-132 REMOVE THIS LINING
+
+====================================================================
+ITEM TERAKHIR MUNCUL 2X
+--------------------------------------------------------------------
+
+PAGE 02
+PAGE 04
+PAGE 06
+
+PAGE 07
+PAGE 0
+PAGE 0
